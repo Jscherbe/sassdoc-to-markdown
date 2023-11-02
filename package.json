@@ -1,0 +1,50 @@
+{
+  "name": "@ulu/vuepress-plugin-sassdoc",
+  "version": "0.0.1",
+  "description": "Creates pages for sassdoc groups in vitepress (as markdown). Supports all annotations, custom annotations, groups display name and description, and content blocks in content. Items organized by type (variable, mixin, etc).",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jscherbe/vitepress-plugin-sassdoc.git"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev test",
+    "docs:build": "vitepress build test",
+    "docs:preview": "vitepress preview test"
+  },
+  "keywords": [
+    "vitepress-plugin",
+    "sassdoc",
+    "vitepress",
+    "sass",
+    "documentation",
+    "html preview",
+    "compiled example"
+  ],
+  "author": "Joseph Scherben <jscherbe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jscherbe/vitepress-plugin-sassdoc/issues"
+  },
+  "homepage": "https://github.com/Jscherbe/vitepress-plugin-sassdoc#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.24",
+    "sass": "^1.60.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-plain-text": "^0.3.0",
+    "sassdoc": "^2.7.4",
+    "strip-indent": "^4.0.0",
+    "yaml": "^2.2.1"
+  },
+  "peerDependencies": {
+    "sass": ">1.50"
+  } 
+}
