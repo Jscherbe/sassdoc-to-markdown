@@ -1,3 +1,6 @@
-☐ Setup test
-☐ Port plugin to vite
-  ☐ See if we can inject the pages in vite? Old way
+Migrating to Agnostic Markdown Pages:
+  ☐ No way for plugin to add pages without creating dynamic pages and would reduce efficiency (all sasdoc data included)
+  ☐ Instead this package should just be agnostic and output standard markdown
+    ☐ How to do the things like dynamic render (previews)?
+      ☐ Could we just output examples directory with pages that can be viewed in markdown (iframe)?
+    ☐ As a separate package make vitepress specific if needed

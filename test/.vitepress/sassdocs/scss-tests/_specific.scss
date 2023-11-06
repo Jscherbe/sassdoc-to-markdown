@@ -1,0 +1,23 @@
+////
+/// @group plugin-specific
+/// These are extended features provided by this library
+////
+
+
+/// In addition to the code block example this example will show the compiled result. Note the  {compile} modifier on the example. It also uses the compiler annotation to load the module for the compiled example. Content in the compiler annotation are prepended to the compiled code for the item or group if at file-level)
+/// @compiler
+///   @use "specific" as specific;
+/// @example scss {compile} This example will be compiled
+///   @include specific.print-color(red);
+
+@mixin  print-color($value) {
+  .test {
+    color: $value;
+  }
+}
+
+/// In addition to the html example this will also be previewed in an iframe. Note the {preview} modifier. Settings are available to add stylesheet and javascript to iframe. Iframe used for isolation from docs styles. 
+/// @example html {preview} This example will be previewed
+///   <span class="test">This is a test</span>
+
+@mixin  some-mixin($value) {}

@@ -15,7 +15,8 @@
   "scripts": {
     "docs:dev": "vitepress dev test",
     "docs:build": "vitepress build test",
-    "docs:preview": "vitepress preview test"
+    "docs:preview": "vitepress preview test",
+    "test:output" : "node ./test/.vitepress/output.js"
   },
   "keywords": [
     "vitepress-plugin",
