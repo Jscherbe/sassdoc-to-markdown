@@ -1,28 +1,13 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import { resolve } from "path";
+import { createTree, toDefaultTheme } from "@ulu/vitepress-auto-menus";
 
-// https://vitepress.dev/reference/site-config
+const pages = createTree({ source: resolve(__dirname, "../") });
+
 export default defineConfig({
   title: "Test Plugin",
   description: "Vitepress site for testing plugin",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ...toDefaultTheme(pages),
   }
-})
+});

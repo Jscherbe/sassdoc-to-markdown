@@ -4,9 +4,9 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 let running = false;
-import { outputPages } from "../../index.js";
+import { outputPages } from "../../../index.js";
 const options = {
-  dist: path.resolve(__dirname, "../"),
+  dist: path.resolve(__dirname, "../../"),
   dir: path.resolve(__dirname, "scss-tests"),
   pathBase: "/sass/"
 }
