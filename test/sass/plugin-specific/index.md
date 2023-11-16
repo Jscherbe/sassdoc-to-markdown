@@ -6,13 +6,7 @@ sassdocGroupName: plugin-specific
 
 # Plugin-specific
 
-
-<div class="sassdoc-intro">
-  
 These are extended features provided by this library
-  
-</div>
-    
 
 
 ## Mixins
@@ -31,15 +25,11 @@ In addition to the code block example this example will show the compiled result
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** mixin
 - **Lines (comments):** 7-11
 - **Lines (code):** 13-17
-
-</SassdocDetails>
     
     
 
@@ -75,15 +65,11 @@ In addition to the html example this will also be previewed in an iframe. Note t
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** mixin
 - **Lines (comments):** 19-21
 - **Lines (code):** 23-23
-
-</SassdocDetails>
     
     
 

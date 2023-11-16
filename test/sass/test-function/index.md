@@ -42,16 +42,12 @@ This is a *deprecation* message.
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test-function
 - **Type:** function
 - **Lines (comments):** 12-62
 - **Lines (code):** 64-64
 - **Author:** Pascal **Duez**,Valérian **Galliat**,Kitty **Giraudel**,Fabrice **Weinberg**
-
-</SassdocDetails>
     
     
 

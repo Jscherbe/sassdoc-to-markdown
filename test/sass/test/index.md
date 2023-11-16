@@ -6,14 +6,8 @@ sassdocGroupName: test
 
 # Test
 
-
-<div class="sassdoc-intro">
-  
 This is a group description. It describes the group.
 It can be split across multiple lines.
-  
-</div>
-    
 
 
 ## Variables
@@ -35,15 +29,11 @@ This is a test variable aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** variable
 - **Lines (comments):** 102-109
 - **Lines (code):** 111-111
-
-</SassdocDetails>
     
     
 
@@ -78,15 +68,11 @@ This is a test mixin aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** mixin
 - **Lines (comments):** 83-96
 - **Lines (code):** 98-98
-
-</SassdocDetails>
     
     
 
@@ -127,15 +113,11 @@ This is a test aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** mixin
 - **Lines (comments):** 123-126
 - **Lines (code):** 128-139
-
-</SassdocDetails>
     
     
 
@@ -166,15 +148,11 @@ This is a test that autofill can be overwritten.
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** mixin
 - **Lines (comments):** 144-146
 - **Lines (code):** 148-152
-
-</SassdocDetails>
     
     
 
@@ -197,15 +175,11 @@ This is a test that autofill should report not found
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** mixin
 - **Lines (comments):** 154-155
 - **Lines (code):** 156-157
-
-</SassdocDetails>
     
     
   ,
@@ -229,15 +203,11 @@ This is a test function aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** function
 - **Lines (comments):** 67-77
 - **Lines (code):** 79-79
-
-</SassdocDetails>
     
     
 
@@ -279,15 +249,11 @@ This is a test function aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** function
 - **Lines (comments):** 161-164
 - **Lines (code):** 166-166
-
-</SassdocDetails>
     
     
 
@@ -304,16 +270,12 @@ This is a test function aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** function
 - **Aliased:** alias-test
 - **Lines (comments):** 168-169
 - **Lines (code):** 171-171
-
-</SassdocDetails>
     
     
 
@@ -331,15 +293,11 @@ This is a test function aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** function
 - **Lines (comments):** 173-176
 - **Lines (code):** 178-178
-
-</SassdocDetails>
     
     
   ,
@@ -361,15 +319,11 @@ This is a test placeholder aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** placeholder
 - **Lines (comments):** 114-117
 - **Lines (code):** 119-119
-
-</SassdocDetails>
     
     
 
@@ -391,15 +345,11 @@ This is a test placeholder aiming at testing:
     
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** placeholder
 - **Lines (comments):** 180-182
 - **Lines (code):** 184-184
-
-</SassdocDetails>
     
     
   ,
@@ -426,15 +376,11 @@ This is a test CSS block.
   
 
 
-<SassdocDetails summary="Meta Information">
-
 - **File:** _sassdoc.scss
 - **Group:** test
 - **Type:** css
 - **Lines (comments):** 186-187
 - **Lines (code):** 189-189
-
-</SassdocDetails>
     
     
   
