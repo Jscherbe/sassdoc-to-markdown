@@ -9,6 +9,7 @@ sassdocGroupName: test-function
 
 
 
+
 ## Functions
 
 
@@ -36,11 +37,12 @@ This is a global test aiming at testing:
     
     
 
-::: warning Deprecated
+#### Deprecated
+
 This is a *deprecation* message.
-:::
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test-function

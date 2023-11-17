@@ -10,6 +10,7 @@ This is a group description. It describes the group.
 It can be split across multiple lines.
 
 
+
 ## Variables
 
 
@@ -28,6 +29,7 @@ This is a test variable aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -46,7 +48,8 @@ This is a test variable aiming at testing:
 |base.second-key|String|42|Description|
 
     
-  ,
+  
+
 ## Mixins
 
 
@@ -67,6 +70,7 @@ This is a test mixin aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -112,6 +116,7 @@ This is a test aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -147,6 +152,7 @@ This is a test that autofill can be overwritten.
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -174,6 +180,7 @@ This is a test that autofill should report not found
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -182,7 +189,8 @@ This is a test that autofill should report not found
 - **Lines (code):** 156-157
     
     
-  ,
+  
+
 ## Functions
 
 
@@ -202,6 +210,7 @@ This is a test function aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -249,6 +258,7 @@ This is a test function aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -270,6 +280,7 @@ This is a test function aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -293,6 +304,7 @@ This is a test function aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -301,7 +313,8 @@ This is a test function aiming at testing:
 - **Lines (code):** 178-178
     
     
-  ,
+  
+
 ## Placeholders
 
 
@@ -319,6 +332,7 @@ This is a test placeholder aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -345,6 +359,7 @@ This is a test placeholder aiming at testing:
     
     
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test
@@ -353,7 +368,8 @@ This is a test placeholder aiming at testing:
 - **Lines (code):** 184-184
     
     
-  ,
+  
+
 ## CSS
 
 
@@ -376,6 +392,7 @@ This is a test CSS block.
 ```
   
 
+#### Details
 
 - **File:** _sassdoc.scss
 - **Group:** test

@@ -9,6 +9,7 @@ sassdocGroupName: plugin-specific
 These are extended features provided by this library
 
 
+
 ## Mixins
 
 
@@ -24,6 +25,7 @@ In addition to the code block example this example will show the compiled result
     
     
 
+#### Details
 
 - **File:** _specific.scss
 - **Group:** plugin-specific
@@ -64,6 +66,7 @@ In addition to the html example this will also be previewed in an iframe. Note t
     
     
 
+#### Details
 
 - **File:** _specific.scss
 - **Group:** plugin-specific

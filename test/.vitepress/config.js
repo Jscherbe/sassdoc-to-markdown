@@ -5,7 +5,7 @@ import { createTree, toDefaultTheme } from "@ulu/vitepress-auto-menus";
 const pages = createTree({ source: resolve(__dirname, "../") });
 
 export default defineConfig({
-  title: "Test Plugin",
+  title: "@ulu/sassdoc-to-markdown",
   description: "Vitepress site for testing plugin",
   themeConfig: {
     ...toDefaultTheme(pages),
