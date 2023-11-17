@@ -226,7 +226,8 @@ This is a test function aiming at testing:
 
 |Type|Description|
 |:--|:--|
-|*|Anything|
+|*|Anything
+|
 
     
 
@@ -353,7 +354,7 @@ This is a test placeholder aiming at testing:
     
     
   ,
-## Css
+## CSS
 
 
 
