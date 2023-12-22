@@ -21,3 +21,13 @@
 ///   <span class="test">This is a test</span>
 
 @mixin  some-mixin($value) {}
+
+/// Testing how map variables print
+
+$map: (
+  "hello" : "world"
+);
+
+/// Testing how single line variable print
+
+$number: 3;

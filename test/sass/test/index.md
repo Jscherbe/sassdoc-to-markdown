@@ -29,6 +29,11 @@ This is a test variable aiming at testing:
     
     
 
+``` scss
+()
+```
+  
+
 #### Details
 
 - **File:** _sassdoc.scss
@@ -388,7 +393,7 @@ This is a test CSS block.
 ``` scss
 {
   color: red;
-}
+ }
 ```
   
 

@@ -10,6 +10,65 @@ These are extended features provided by this library
 
 
 
+## Variables
+
+
+
+
+###  $map {#variable-map} 
+
+<small>Variable&ensp;|&ensp;Access: Public</small>
+
+  
+
+Testing how map variables print
+    
+    
+
+``` scss
+(
+  "hello" : "world"
+)
+```
+  
+
+#### Details
+
+- **File:** _specific.scss
+- **Group:** plugin-specific
+- **Type:** variable
+- **Lines (comments):** 25-25
+- **Lines (code):** 27-29
+    
+    
+
+
+###  $number {#variable-number} 
+
+<small>Variable&ensp;|&ensp;Access: Public</small>
+
+  
+
+Testing how single line variable print
+    
+    
+
+``` scss
+3
+```
+  
+
+#### Details
+
+- **File:** _specific.scss
+- **Group:** plugin-specific
+- **Type:** variable
+- **Lines (comments):** 31-31
+- **Lines (code):** 33-33
+    
+    
+  
+
 ## Mixins
 
 

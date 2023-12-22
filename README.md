@@ -2,8 +2,6 @@
 
 Converts sass files using sassdoc syntax to markdown files, see 'lib/defaults.js' for settings.
 
-## Features
-
 - Compiled Sass examples (Dart Sass) 
 - Compiled examples can be configured to use your own implementation, see options (ie. if using node-sass for example)
 - Content blocks between documented items
@@ -29,8 +27,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 })();
 ```
 
-
-
 ## Compiled Sassdoc Example
 
 ```scss
@@ -46,3 +42,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
   }
 }
 ```
+
+
+## Changes
+
+[Change Log](CHANGELOG.md)
