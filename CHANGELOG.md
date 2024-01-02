@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.9
+
+- Add escape method for things being recognized as attributes in markdown (markdown-it-attrs) (ie. 'this error is missing #{ $var }') which aren't actually markdown attributes but sass at the end of a line
+  - Only added to the following annotations: thow, description, todo (for now)
+
 ## 0.0.8 
 
 - Fix wrapping in _code custom annotation in "{}", which is for css/placeholder. With that you can choose what to include (config.showSourceCode)

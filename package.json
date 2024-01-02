@@ -1,6 +1,6 @@
 {
   "name": "@ulu/sassdoc-to-markdown",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Parses sass directory and outputs markdown pages for sassdocs.",
   "main": "index.js",
   "type": "module",
