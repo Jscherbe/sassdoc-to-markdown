@@ -1,0 +1,8 @@
+Todos:
+Ideas:
+  ☐ Make custom annoation/option for readme files?
+    * Would be used to load local readme if you store the files in directories, or by passing a relative file path?
+    * ie. @readme "button.README.md"
+    * or maybe it's also an option "autoReadme" and have it either
+      * based on the current files name "button.scss" --> "button.README.md"
+      * based on current dir "/button/_index.scss" --> "/button/README.scss"
