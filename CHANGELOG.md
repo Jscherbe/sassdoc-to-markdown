@@ -2,7 +2,7 @@
 
 ## 0.0.11
 
-- Add variable name and semicolon to variable printed _code annotation (so it doesn't break syntax highlighting)
+- Add variable name to codeblock output and semicolon wehn a variable is printed in _code annotations (so it doesn't break syntax highlighting)
 
 ## 0.0.9
 
