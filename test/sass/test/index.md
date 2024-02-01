@@ -30,7 +30,7 @@ This is a test variable aiming at testing:
     
 
 ``` scss
-()
+$variable-specific-test: ();
 ```
   
 

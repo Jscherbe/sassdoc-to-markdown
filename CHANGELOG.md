@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.11
+
+- Add variable name and semicolon to variable printed _code annotation (so it doesn't break syntax highlighting)
+
 ## 0.0.9
 
 - Add escape method for things being recognized as attributes in markdown (markdown-it-attrs) (ie. 'this error is missing #{ $var }') which aren't actually markdown attributes but sass at the end of a line

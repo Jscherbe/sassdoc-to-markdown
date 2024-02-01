@@ -26,9 +26,9 @@ Testing how map variables print
     
 
 ``` scss
-(
+$map: (
   "hello" : "world"
-)
+);
 ```
   
 
@@ -54,7 +54,7 @@ Testing how single line variable print
     
 
 ``` scss
-3
+$number: 3;
 ```
   
 
