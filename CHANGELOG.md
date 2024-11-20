@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.12
+
+- Fix content blocks (add notes to lib/defaults.js on settings), add tests for this
+- Add HTML preview like the vitepress version (just outputted as-is), add configuration for this, add tests for this
+
 ## 0.0.11
 
 - Add variable name to codeblock output and semicolon wehn a variable is printed in _code annotations (so it doesn't break syntax highlighting)
