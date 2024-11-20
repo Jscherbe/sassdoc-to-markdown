@@ -10,9 +10,62 @@ These are extended features provided by this library
 
 
 
+
+
+
+
+
+This is a generic content block above all items with a list
+- It also has an example
+    
+    
+
+#### Examples
+
+      
+
+
+``` scss
+.hello {
+  color: red;
+}
+```
+  
+
+
+
+      
+  
+
 ## Variables
 
 
+
+
+###  $another-number {#variable-another-number} 
+
+<small>Variable&ensp;|&ensp;Access: Public</small>
+
+  
+
+Testing variable
+    
+    
+
+``` scss
+$another-number: 3;
+```
+  
+
+#### Details
+
+- **File:** _specific.scss
+- **Group:** plugin-specific
+- **Type:** variable
+- **Lines (comments):** 27-27
+- **Lines (code):** 29-29
+    
+    
 
 
 ###  $map {#variable-map} 
@@ -37,8 +90,8 @@ $map: (
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** variable
-- **Lines (comments):** 25-25
-- **Lines (code):** 27-29
+- **Lines (comments):** 49-49
+- **Lines (code):** 51-53
     
     
 
@@ -63,8 +116,8 @@ $number: 3;
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** variable
-- **Lines (comments):** 31-31
-- **Lines (code):** 33-33
+- **Lines (comments):** 55-55
+- **Lines (code):** 57-57
     
     
   
@@ -89,8 +142,8 @@ In addition to the code block example this example will show the compiled result
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** mixin
-- **Lines (comments):** 7-11
-- **Lines (code):** 13-17
+- **Lines (comments):** 14-18
+- **Lines (code):** 20-24
     
     
 
@@ -106,11 +159,17 @@ This example will be compiled
   
 
 ``` css
+.some-class {
+  background: red;
+}
+
 .test {
   color: red;
 }
 ```
   
+
+
 
       
 
@@ -130,8 +189,8 @@ In addition to the html example this will also be previewed in an iframe. Note t
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** mixin
-- **Lines (comments):** 19-21
-- **Lines (code):** 23-23
+- **Lines (comments):** 43-45
+- **Lines (code):** 47-47
     
     
 
@@ -145,6 +204,57 @@ This example will be previewed
 ```
   
 
+
+##### Preview
+
+<div>
+<span class="test">This is a test</span>
+</div>
+
+    
+
       
+  
+
+## CSS
+
+
+
+
+###  .some-class {#css-.some-class} 
+
+<small>Css&ensp;|&ensp;Access: Public</small>
+
+  
+
+This is documenting some-class
+    
+    
+
+``` scss
+{
+  background: red;
+ }
+```
+  
+
+#### Details
+
+- **File:** _specific.scss
+- **Group:** plugin-specific
+- **Type:** css
+- **Lines (comments):** 31-31
+- **Lines (code):** 33-57
+    
+    
+
+
+
+This is a generic content block
+- between print-color and some-class (when not by type)
+- between print-color and some-mixin (by type)
+
+    
+    
   
   
