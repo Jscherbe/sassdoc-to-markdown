@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.13
+
+- Update readme with configuration options
+
 ## 0.0.12
 
 - Fix content blocks (add notes to lib/defaults.js on settings), add tests for this
