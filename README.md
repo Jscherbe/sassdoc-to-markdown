@@ -2,13 +2,13 @@
 
 A flexible SCSS documentation tool that generates clean, customizable Markdown from your Sass stylesheets. It leverages SassDoc for data extraction and offers various configuration options to tailor the output to your specific needs.
 
-- Compiled Sass examples (Dart Sass) 
+- Compiled Sass examples (Dart Sass), with the ability to configure custom compiler 
 - Preview (output) HTML examples
 - Content blocks between documented items (ie. generic content not tied to a specific annotation)
 - Compiled examples can be configured to use your own implementation, see options (ie. if using node-sass for example)
 - Custom group display names by adding dash ie `/// @group util - Shared Utilities`
 - Group descriptions pulled from lines after group definition (you can also use content blocks to describe groups)
-- Ability to override all annotation and page templates and add your own
+- Ability to override all annotation and page templates and add your own custom annotations
 
 
 ## Table of Contents
@@ -91,9 +91,9 @@ The following options can be passed to configure this generator. Also you can se
 | undefinedGroupName | string | "None" | Name for undefined groups |
 | annotations | string[] | ["name", "description", ...] | Controls order and which annotations are printed |
 | showSourceCode | string[] | ["placeholder", "css", ...] | The documentation types that should display source code |
-| customAnnotations | string[] | [] | (empty) |
-| pageTemplates | object | {} | (empty) |
-| annotationTemplates | object | {} | (empty) |
+| customAnnotations | function[] | [] | Provide annotation functions (see sassdoc docs for modifying or introducing your own annotations). If you make your own provide a template for output in `annotationTemplates` |
+| pageTemplates | object | {} | Provides an object of markdown template functions for any of the page level templates provided by this library (ie. group, section, item). See `/lib/templates/page/` for examples. |
+| annotationTemplates | object | {} | Provides an object of markdown template functions for native sassdoc annotations, custom annotations provided by this library or your own custom annotations. See `/lib/templates/annotations/` for examples. |
 | pageTitleFormatter | function | titleCase | Callback function used to format the page title (from the group name) |
 | itemTitle | function | (data) => ... | Function to format item titles |
 | compiler | function | compile | Set custom compiler for sass |

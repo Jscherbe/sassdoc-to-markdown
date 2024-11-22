@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.14
+
+- Fill in missing info about options in README, and in defaults module (update comments)
+
 ## 0.0.13
 
 - Update readme with configuration options
