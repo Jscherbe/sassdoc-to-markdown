@@ -103,6 +103,8 @@ The following options can be passed to configure this generator. Also you can se
 | outputTemplate | function | ({ frontmatter, content }) => ... | Template for markdown files |
 | buildEnd | function | (data) => ... | Callback when page's have been generated/sorted before output |
 | resolveLink | function | (item, options) => ... | Method to override how links to items are created |
+| hidePrivate | boolean | false | Whether or not to show items that are flagged with `@access private`. Will also hide the printout of access in template since all will be public |
+| hidePrivateKeepGroup | boolean | false | If hiding private, and a private item is the only member of a group this setting will determine if the group is still created. Used for workaround using this to print empty groups (provide info about stylesheets/group which doesn't have mixins/variables/etc [for example if the module just calls a mixin], accomplished by adding private access dummy mixin to scss module so that sassdoc outputs items for the group and enabling this and `hidePrivate`) |
 
 
 ## Changes

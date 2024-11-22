@@ -1,7 +1,12 @@
 ////
 /// @group file-with-nothing
 ////
+/// This is a description
 
-/// In order to print the group there has to be one documented item
-/// 
-$empty-variable: ();
+/// TYhis is just content
+/// Why doesn't this work
+
+/// This mixin is here only so sassdoc will output info for this group/module
+/// @access private
+@mixin -hack-for-docs() {}
+

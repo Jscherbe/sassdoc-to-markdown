@@ -1,6 +1,6 @@
 {
   "name": "@ulu/sassdoc-to-markdown",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "A flexible SCSS documentation tool that generates clean, customizable Markdown from your Sass stylesheets. It leverages SassDoc for data extraction and offers various configuration options to tailor the output to your specific needs",
   "main": "index.js",
   "type": "module",
