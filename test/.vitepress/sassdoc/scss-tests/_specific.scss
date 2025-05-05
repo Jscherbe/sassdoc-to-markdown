@@ -18,7 +18,7 @@
 ///   @include specific.print-color(red);
 
 @mixin  print-color($value) {
-  .test {
+  .test-compile {
     color: $value;
   }
 }
@@ -27,12 +27,6 @@
 /// Testing variable
 
 $another-number: 3;
-
-/// This is documenting some-class
-
-.some-class {
-  background: red;
-}
 
 ///
 /// This is a generic content block
@@ -44,7 +38,7 @@ $another-number: 3;
 /// @example html {preview} This example will be previewed
 ///   <span class="test">This is a test</span>
 
-@mixin  some-mixin($value) {}
+@mixin some-mixin($value) {}
 
 /// Testing how map variables print
 

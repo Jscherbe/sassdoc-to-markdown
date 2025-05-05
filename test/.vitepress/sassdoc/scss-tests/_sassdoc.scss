@@ -187,3 +187,9 @@ $variable-specific-test: ();
 /// @name data-foo
 
 [data-foo="bar"] { color: red; }
+
+/// This is documenting some-class
+
+.some-class {
+  background: red;
+}

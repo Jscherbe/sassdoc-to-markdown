@@ -403,7 +403,35 @@ This is a test CSS block.
 - **Group:** test
 - **Type:** css
 - **Lines (comments):** 186-187
-- **Lines (code):** 189-189
+- **Lines (code):** 189-195
+    
+    
+
+
+###  .some-class {#css-.some-class} 
+
+<small>Css&ensp;|&ensp;Access: Private</small>
+
+  
+
+This is documenting some-class
+    
+    
+
+``` scss
+{
+  background: red;
+ }
+```
+  
+
+#### Details
+
+- **File:** _sassdoc.scss
+- **Group:** test
+- **Type:** css
+- **Lines (comments):** 191-191
+- **Lines (code):** 193-195
     
     
   

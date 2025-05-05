@@ -68,6 +68,15 @@ $another-number: 3;
     
 
 
+
+This is a generic content block
+- between print-color and some-class (when not by type)
+- between print-color and some-mixin (by type)
+
+    
+    
+
+
 ###  $map {#variable-map} 
 
 <small>Variable&ensp;|&ensp;Access: Public</small>
@@ -90,8 +99,8 @@ $map: (
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** variable
-- **Lines (comments):** 49-49
-- **Lines (code):** 51-53
+- **Lines (comments):** 43-43
+- **Lines (code):** 45-47
     
     
 
@@ -116,8 +125,8 @@ $number: 3;
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** variable
-- **Lines (comments):** 55-55
-- **Lines (code):** 57-57
+- **Lines (comments):** 49-49
+- **Lines (code):** 51-51
     
     
   
@@ -159,11 +168,7 @@ This example will be compiled
   
 
 ``` css
-.some-class {
-  background: red;
-}
-
-.test {
+.test-compile {
   color: red;
 }
 ```
@@ -189,8 +194,8 @@ In addition to the html example this will also be previewed in an iframe. Note t
 - **File:** _specific.scss
 - **Group:** plugin-specific
 - **Type:** mixin
-- **Lines (comments):** 43-45
-- **Lines (code):** 47-47
+- **Lines (comments):** 37-39
+- **Lines (code):** 41-41
     
     
 
@@ -214,47 +219,5 @@ This example will be previewed
     
 
       
-  
-
-## CSS
-
-
-
-
-###  .some-class {#css-.some-class} 
-
-<small>Css&ensp;|&ensp;Access: Public</small>
-
-  
-
-This is documenting some-class
-    
-    
-
-``` scss
-{
-  background: red;
- }
-```
-  
-
-#### Details
-
-- **File:** _specific.scss
-- **Group:** plugin-specific
-- **Type:** css
-- **Lines (comments):** 31-31
-- **Lines (code):** 33-57
-    
-    
-
-
-
-This is a generic content block
-- between print-color and some-class (when not by type)
-- between print-color and some-mixin (by type)
-
-    
-    
   
   
