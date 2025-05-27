@@ -29,7 +29,8 @@
     "documentation tool",
     "developer tool",
     "theming",
-    "design system"
+    "design system",
+    "theme documentation"
   ],
   "author": "Joseph Scherben <jscherbe@gmail.com>",
   "license": "MIT",
