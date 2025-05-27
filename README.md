@@ -81,7 +81,8 @@ The following options can be passed to configure this generator. Also you can se
 | debug | boolean | false | Plugin development flag (output logs, etc) |
 | debugToDir | string | null | Print out plugin/sassdoc data (used for developing plugin) |
 | pathBase | string | "/sass/" | Path to prefix to all paths generated for sassdocs |
-| byType | boolean | true | Whether or not the documented items should be organized by type (variable, mixin, etc) or should display in the order they were parsed |
+| byType | boolean | [ "body", "variables", "mixins", "functions", "placeholders", "CSS" ] | The order of the sections when grouping by type. In addition to order if a section type is not in this order it won't be output |
+| byTypeOrder | array | true | Whether or not the documented items should be organized by type (variable, mixin, etc) or should display in the order they were parsed |
 | sassdocOptions | object | { verbose: true } | Sassdoc library options |
 | contentEnabled | boolean | true | Include comment blocks that are between sassdoc items |
 | contentInline | boolean | true | Extra content should all be displayed above items (ie. variables, mixins, etc) even if it is in between documented items |

@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.16
+
+- Add options for "byTypeOrder" which will allow adjusting the order of the sections when outputting "byType", also if a section type is not in the array it will be excluded (not output)
+
 ## 0.0.15
 
 - Add options for (hidePrivate, hidePrivateKeepGroup). See Readme for details
